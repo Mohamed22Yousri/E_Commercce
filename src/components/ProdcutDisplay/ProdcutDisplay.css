@@ -1,0 +1,292 @@
+.prodcutDisplay{
+    display: flex;
+    margin: 0 80px;
+}
+.prodcut-left{
+    display: flex;
+    gap: 17px;
+}
+.prodcut-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.prodcut-img-list img {
+    height: 163px;
+}
+.prodcutDisplay-main-img{
+    width: 500px;
+    height: 700px;
+}
+.prodcut-right{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+.prodcut-right h1 {
+    font-size: 45px;
+    color: #3d3d3d;
+}
+.prodcutDisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.prodcutDisplay-right-prices{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+.prodcutDisplay-right-old-price{
+    text-decoration: line-through;
+    opacity: .5;
+}
+.prodcutDisplay-right-new-price{
+  color: #ff4141;
+}
+.prodcutDisplay-right-size h1{
+    margin-top: 40px;
+    font-size: 20px ;
+    font-weight: 500;
+    color: #656566;
+}
+.prodcutDisplay-right-size{
+    display: flex;
+    margin: 30px 0;
+    gap: 20px;
+}
+.prodcutDisplay-right-size div{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #fbfbfb;
+    border: 1px solid #ebebee;
+}
+.prodcut-right button {
+    border: none;
+    padding: 20px 40px;
+    width: 200px;
+    color: white;
+    background-color: #ff4141;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.prodcutDisplay-right-category{
+    margin-top: 10px;
+}
+.prodcutDisplay-right-category span {
+    font-weight: 600;
+}
+@media(max-width:1280px){
+    .prodcutDisplay{
+        margin: 0 60px;
+    }
+    .prodcut-left{
+        gap: 10px;
+    }
+    .prodcut-img-list{
+        gap: 10px;
+    }
+    .prodcut-img-list img{
+       height: 120px;
+    }
+    .prodcutDisplay-main-img{
+        width: auto;
+        height: 510px;
+    }
+    .prodcut-right{
+        margin: 0px 30px;
+    }
+    .prodcut-right h1 {
+        font-size: 22px;
+    }
+    .prodcutDisplay-right-star{
+        gap: 3px;
+        font-size: 13px;
+    }
+    .prodcutDisplay-right-prices{
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .prodcutDisplay-right-description{
+        font-size: 13px;
+    }
+    .prodcutDisplay-right-size h1{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .prodcutDisplay-right-size div{
+        padding: 14px 20px;
+    }
+    .prodcut-right button {
+        width: 150px;
+        padding: 15px 0;
+        margin-bottom: 20px;
+    }
+    .prodcutDisplay-right-category{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px){
+    .prodcutDisplay{
+        margin: 0 30px;
+    }
+    .prodcut-left{
+        gap: 5px;
+    }
+   
+    .prodcut-img-list img{
+       height: 80px;
+    }
+    .prodcutDisplay-main-img{
+        height: 350px;
+    }
+   
+    .prodcut-right h1 {
+        font-size: 18px;
+    }
+    .prodcutDisplay-right-star img{
+      width: 15px;
+    }
+    
+    .prodcutDisplay-right-description{
+        font-size: 12px;
+    }
+    .prodcutDisplay-right-size{
+        margin-top: 10px;
+    }
+    .prodcutDisplay-right-size h1{
+        margin-top: 30px;
+    }
+    .prodcutDisplay-right-size div{
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+    .prodcut-right button {
+        width: 120px;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .prodcutDisplay-right-category{
+        font-size: 12px;
+    }
+}
+@media(max-width:800px){
+    .prodcutDisplay{
+        margin: 0 10px;
+    }
+    .prodcut-left{
+        gap: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .prodcut-img-list{
+        flex-direction: row;
+        gap: 6px;
+    }
+   
+    .prodcut-img-list img{
+       height: 70px;
+    }
+    .prodcutDisplay-main-img{
+        height: 300px;
+    }
+   
+    .prodcut-right h1 {
+        font-size: 14px;
+    }
+    .prodcutDisplay-right-star img{
+      width: 13px;
+    }
+    
+    .prodcutDisplay-right-description{
+        font-size: 10px;
+    }
+    .prodcutDisplay-right-size h1 {
+        margin-top: 10px 0;
+    }
+    .prodcutDisplay-right-size{
+        margin-top: 10px;
+        gap: 5px;
+    }
+    .prodcutDisplay-right-size h1{
+        margin-top: 16px;
+    }
+    .prodcutDisplay-right-size div{
+        padding: 4px 11px;
+        font-size: 12px;
+    }
+    .prodcut-right button {
+        width: 100px;
+        
+        font-size: 12px;
+    }
+    .prodcutDisplay-right-category{
+        font-size: 10px;
+    }
+}
+@media(max-width:500px){
+    .prodcutDisplay{
+        flex-direction: column;
+    }
+    .prodcut-left{
+        flex-direction: row;
+        gap: 10px;
+        margin: auto;
+    }
+    .prodcut-img-list{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .prodcut-img-list img{
+        height: 75px;
+
+    }
+    .prodcutDisplay-main-img{
+        height: 330px;
+    }
+    .prodcut-right{
+        margin: 5px;
+    }
+    .prodcut-right h1{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight:500 ;
+    }
+    .prodcutDisplay-right-star img{
+        width: 15px;
+      }
+      .prodcutDisplay-right-size{
+        margin: 10px 0px;
+        gap: 10px;
+    }
+    .prodcutDisplay-right-size h1{
+        margin-top: 16px;
+        font-size: 17px;
+    }
+
+    .prodcutDisplay-right-size{
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .prodcutDisplay-right-size button{
+        width: 130px;
+        font-size: 15px;
+        padding: 12px 0;
+    }
+    .prodcutDisplay-right-category{
+        font-size: 16px;
+    }
+
+
+}
