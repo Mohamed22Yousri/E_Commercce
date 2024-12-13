@@ -1,146 +1,150 @@
-.newLetter{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 0 140px;
-    margin: auto;
-    width: 65%;
-    height: 40vh;
-    background: linear-gradient(180deg , #fde1ff , #e1ffea22 60%);
+.newLetter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 140px;
+  margin: auto;
+  width: 65%;
+  height: 40vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
 }
-.newLetter h1{
-    font-size: 45px;
-    font-weight: 600;
-    color: #454545;
+.newLetter h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #454545;
 }
 .newLetter p {
-    color: #454545;
-    font-size: 18px;
+  color: #454545;
+  font-size: 18px;
 }
 .newLetter div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 730px;
-    height:70px ;
-    border-radius: 75px;
-    border: 1px solid #e3e3e3;
-    background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 730px;
+  height: 70px;
+  border-radius: 75px;
+  border: 1px solid #e3e3e3;
+  background-color: white;
 }
 .newLetter input {
-    outline: none;
-    border: none;
-    width: 500px;
-    margin-left: 30px;
-    font-size: 16px;
-    color: #616161;
-    font-family: poppins;
+  outline: none;
+  border: none;
+  width: 500px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #616161;
+  font-family: poppins;
 }
 
 .newLetter button {
-        width: 210px;
-        height: 70px;
-        border-radius: 80px;
-        background-color: black;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
+  width: 210px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
 }
-@media(max-width:1280px){
-    .newLetter{
-        padding: 0px 80px;
-        margin-bottom: 120px;
-        gap: 20px;
-    }
-    .newLetter h1 {
-        font-size: 36px;
-    }
-    .newLetter p {
-        font-size: 16px;
-    }
-    .newLetter div {
-        width: 600px;
-        height: 60px;
-    }
-    .newLetter div input{
-        width: 400px;
-    }
-    .newLetter div button {
-        height: 60px;
-        width: 160px;
-    }
+.newLetter button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
 }
-@media(max-width:1024px){
-    .newLetter{
-        margin-bottom: 60px;
-    }
-    .newLetter h1 {
-        font-size: 30px;
-    }
-    .newLetter p {
-        font-size: 14px;
-    }
-    .newLetter div {
-        width: 500px;
-        height: 50px;
-    }
-    .newLetter div input{
-        width: 300px;
-        font-size: 14px;
-    }
-    .newLetter div button {
-        height: 50px;
-        width: 120px;
-        font-size: 14px;
-    }
+@media (max-width: 1280px) {
+  .newLetter {
+    padding: 0px 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+  .newLetter h1 {
+    font-size: 36px;
+  }
+  .newLetter p {
+    font-size: 16px;
+  }
+  .newLetter div {
+    width: 600px;
+    height: 60px;
+  }
+  .newLetter div input {
+    width: 400px;
+  }
+  .newLetter div button {
+    height: 60px;
+    width: 160px;
+  }
 }
-@media(max-width:800px){
-    .newLetter{
-        margin-bottom: 30px;
-        height: 35vh;
-    }
-    .newLetter h1 {
-        font-size: 18px;
-    }
-    .newLetter p {
-        font-size: 12px;
-    }
-    .newLetter div {
-        width: 400px;
-        height: 40px;
-    }
-    .newLetter div input{
-        width: 200px;
-        font-size: 14px;
-    }
-    .newLetter div button {
-        height: 40px;
-        width: 100px;
-        font-size: 13px;
-    }
+@media (max-width: 1024px) {
+  .newLetter {
+    margin-bottom: 60px;
+  }
+  .newLetter h1 {
+    font-size: 30px;
+  }
+  .newLetter p {
+    font-size: 14px;
+  }
+  .newLetter div {
+    width: 500px;
+    height: 50px;
+  }
+  .newLetter div input {
+    width: 300px;
+    font-size: 14px;
+  }
+  .newLetter div button {
+    height: 50px;
+    width: 120px;
+    font-size: 14px;
+  }
 }
-@media(max-width:500){
-    .newLetter{
-        height: 25vh;
-        width: 100%;
-        padding: 0;
-        gap: 15px;
-    }
-    .newLetter h1 {
-        font-size: 16px;
-    }
-    .newLetter p {
-        font-size: 13px;
-        max-width: 200px;
-        text-align: center;
-    }
-    .newLetter div {
-        width: 290px;
-    }
-    .newLetter div input{
-        width: 130px;
-    }
-
+@media (max-width: 800px) {
+  .newLetter {
+    margin-bottom: 30px;
+    height: 35vh;
+  }
+  .newLetter h1 {
+    font-size: 18px;
+  }
+  .newLetter p {
+    font-size: 12px;
+  }
+  .newLetter div {
+    width: 400px;
+    height: 40px;
+  }
+  .newLetter div input {
+    width: 200px;
+    font-size: 14px;
+  }
+  .newLetter div button {
+    height: 40px;
+    width: 100px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500) {
+  .newLetter {
+    height: 25vh;
+    width: 100%;
+    padding: 0;
+    gap: 15px;
+  }
+  .newLetter h1 {
+    font-size: 16px;
+  }
+  .newLetter p {
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+  }
+  .newLetter div {
+    width: 290px;
+  }
+  .newLetter div input {
+    width: 130px;
+  }
 }

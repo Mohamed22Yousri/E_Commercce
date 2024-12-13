@@ -35,11 +35,17 @@
     height: 60px;
     margin-top: 30px;
     color: white ;
-    background-color: #ff4141;
+    background-color: black;
     cursor: pointer;
     font-weight: 500;
     font-size: 24px;
     border: none;
+    transition: .3s;
+}
+.loginSignUp-container button:hover {
+    color: black ;
+    background-color: white;
+    border: 1px solid black;
 }
 .loginSignUp-login{
     margin-top: 20px;
@@ -49,7 +55,7 @@
 }
 .loginSignUp-login span {
     font-weight: 600;
-    color: #ff4141;
+    color: black;
 
 }
 .loginSignUp-agree{

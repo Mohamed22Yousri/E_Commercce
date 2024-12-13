@@ -31,19 +31,29 @@
     width: 105px;
 }
 .hero-latest-btn{
+    border: 3px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     gap: 20px;
-    background-color: #ff4141;
+    background-color: black;
     font-size: 22px;
     font-weight: 500;
-    border-radius: 75px;
     color: white;
     width: 310px;
     height: 70px;
     cursor: pointer;
+    transition: .3s;
+}
+.hero-latest-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    
+}
+.hero-latest-btn:hover img {
+    fill: red !important;
 }
 .hero-right{
     margin: auto;
